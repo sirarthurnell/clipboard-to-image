@@ -1,2 +1,3 @@
 @echo off
-cmd /c "cd /d C:\Users\EXCELTIC435\Desktop\scripts\generated-apps\clipboard-to-image\venv\Scripts & .\activate & cd /d C:\Users\EXCELTIC435\Desktop\scripts\generated-apps\clipboard-to-image & python .\main.py"
+set "DESKTOP=%USERPROFILE%\Desktop"
+cmd /c "cd /d %DESKTOP%\scripts\generated-apps\clipboard-to-image\venv\Scripts & .\activate & cd /d %DESKTOP%\scripts\generated-apps\clipboard-to-image & python .\main.py"
